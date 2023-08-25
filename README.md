@@ -29,9 +29,8 @@ For AI on the cmdline
 ```bash
 python3 aiEnteractCmdLine.py
 ```
-# Install Requirements
 
-# import these libraries, may have to use pip install for many of them (above command)  
+# Install Requirements
 
 To get python squared away:
 ```bash
