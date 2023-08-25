@@ -59,7 +59,7 @@ def checKAIName():
 
 		return name
 
-# check if the model has been input, called by get_completion
+# check if the model has been input
 def checKAIModel():
 	# input the model
 	flavor = ""
