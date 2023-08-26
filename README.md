@@ -2,7 +2,7 @@
 
 Let's learn AI together
 
-Python program to translate speech to text, Google to recognize audio, and ask chatgpt(OpenAI) a question.
+Python program to translate speech to text, Google to recognize audio, and ask chatgpt(OpenAI) a question. A verbal reponse will be provided on the asked question.
 Your AI partner is stored in openAISpeech2Text.py. Install the packages and start asking questions on your linux machine.
 Additionally, added a commandline version aiEnteractCmdLine.py.
 Remember to install required packages, add api key, and name of AI. Tested on ubuntu.
