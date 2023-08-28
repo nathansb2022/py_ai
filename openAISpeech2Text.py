@@ -1,7 +1,7 @@
 #!/bin/usr/env python3
 #
 #Let's learn AI together
-
+#
 # Python program to translate
 # speech to text, Google to recognize audio and ask chatgpt(OpenAI) a question
 # Install the packages and start asking questions on your linux machine
@@ -10,16 +10,16 @@
 # Sources
 # https://www.analyticsvidhya.com/blog/2023/05/how-to-use-chatgpt-api-in-python/
 # https://www.geeksforgeeks.org/python-convert-speech-to-text-and-text-to-speech/
-
+#
 # In checkAPIKey(), I commented out the env variable for my OpenAI API. Change if you would like
 # In checkAIName, I commented out the name, jarvis. Change if you would like
 # In checKAIModel(), I commented out the variable for the AI model (gpt-3.5-turbo). Change if you would like
-
+#
 # INSTALL
 # pip3 install speechrecognition pyttsx3 openai pandas pyfiglet
 # sudo apt install espeak jackd2 python3-pyaudio
-
-# import these libraries, may have to use pip install for many of them (above command)
+#
+# import these libraries, may have to use pip3 install for many of them (above command)
 import speech_recognition as sr, pyttsx3, openai, os, time, pandas as pd, warnings, pyfiglet
 
 warnings.filterwarnings('ignore')
@@ -116,7 +116,7 @@ def interact(r):
 	name = checKAIName()
 
 	milliDollarQuestion(name)
-	# Loops waiting for the keyword jarvis then asks chatgpt your question utilizing google trans. and
+	# Loops waiting for the request then asks chatgpt your question utilizing google trans. and
 	# responds
 	while(1):   
 		# Exception handling to handle
@@ -159,7 +159,8 @@ def interact(r):
 			 
 		except sr.UnknownValueError:
 			print("unknown error occurred\n")
-
-interact(r)
+			
+if __name__ == "__main__":
+	interact(r)
 
 	 
