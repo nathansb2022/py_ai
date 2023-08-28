@@ -3,7 +3,8 @@
 #Let's learn AI together
 #
 # Python program to translate
-# speech to text, Google to recognize audio and ask chatgpt(OpenAI) a question
+# speech to text, Google to recognize audio and ask chatgpt(OpenAI) a question.
+# After reponse has been requested, verbally respond with the answer.
 # Install the packages and start asking questions on your linux machine
 # Remember to install required packages, add api key, and name of AI
 # Tested on ubuntu
