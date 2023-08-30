@@ -40,7 +40,7 @@ def checKAPIKey():
 	OKEY = ""
 	#OKEY = os.environ.get('OKEY')
 	if not OKEY:
-		OKEY = input("Please input the Open API key: \n")
+		OKEY = input("Please input the OpenAI API key: \n")
 
 		return OKEY
 	else:
